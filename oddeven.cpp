@@ -6,5 +6,5 @@ int n=5;
 		cout<<"even no";
 	else
 		cout<<"odd no";
-	return 0;
+   return 0; 
 }

@@ -8,12 +8,14 @@ num.push_back(1);
 num.push_back(2);
 num.push_back(3);
 num.push_back(4);
+num.push_back(5);
 cout<<"size:"<<num.size()<<endl;
 num.pop_back();
 cout<<"size:"<<num.size()<<endl;
 cout<<"index values:"<<num.at(2)<<endl;
 for(int i :num){
-        cout<<i<<endl;
+
+	cout<<i<<endl;
 }
 return 0;
 }

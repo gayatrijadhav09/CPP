@@ -12,6 +12,7 @@ bool prime(int n){
 }
 
 int main(){
+	prime(20);
     int n = 20;
 
     for(int i = 2; i <= n; i++){

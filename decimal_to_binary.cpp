@@ -4,7 +4,7 @@ using namespace std;
 	 int ans=0;
 	 int pow=1;
 	 while(decno>0){
-		int  rem=decno%2;
+		int rem =decno%2;
 		 decno=decno/2;
 		 ans+=(rem*pow);
 		 pow=pow*10;
@@ -12,7 +12,7 @@ using namespace std;
 	 return ans;
  }
 int main(){
-	int decno=10;
+	int decno=42;
 	cout<<dectobinary(decno)<<endl;
 	return 0;
 }

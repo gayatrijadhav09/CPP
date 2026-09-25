@@ -1,0 +1,13 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main()
+{
+vector<pair<int ,int>> vec={{1,2},{2,3}};
+vec.push_back({2,45});
+for(pair<int,int> p:vec){
+        cout<<p.first<<" "<<p.second<<endl;
+}
+return 0;
+}
